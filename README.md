@@ -1,5 +1,8 @@
 # Astro Starter Kit: Minimal
 
+## [Link to Live Site](https://silver-frangollo-b56c92.netlify.app)
+
+
 ```sh
 npm create astro@latest -- --template minimal
 ```
