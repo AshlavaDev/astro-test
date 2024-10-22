@@ -9,8 +9,10 @@ const pageTitle = "Astro Test Blog";
   <main>
     <h2>My Astro Learning Blog</h2>
     <p>This is where I will post about my journey learning Astro.</p>
+    <h3>All Posts</h3>
     <ul>
       {allPosts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
     </ul>
+    <a href="/tags">View by Tag</a>
   </main>
 </BaseLayout>
